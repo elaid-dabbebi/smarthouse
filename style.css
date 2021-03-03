@@ -1,0 +1,87 @@
+body {
+    background: url("./img/bg.PNG");
+}
+
+#imghead {
+    width: 100%;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+
+#imgabout {
+    border-radius: 50%;
+    width: 37px;
+}
+
+.in {
+    background: none;
+    border-bottom: 1px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 85%;
+    color: azure;
+}
+
+label {
+    color: white;
+}
+
+.sub {
+    color: red;
+    background-color: white;
+    border: 0px;
+    border-radius: 6px;
+    width: 75%;
+    height: 32px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.logdiv {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.fan {
+    display: flex;
+    flex-direction: row;
+}
+
+.fan1 {
+    width: calc(50% - 4px);
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+}
+
+.lightdoor {
+    display: flex;
+    flex-direction: row;
+}
+
+.lightdoor1 {
+    width: calc(20% - 10px);
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+}
+
+.room {
+    color: white;
+    font-size: 16px;
+}
+
+.lightdoor2 {
+    width: calc(25% - 10px);
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+}
